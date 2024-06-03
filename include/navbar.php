@@ -7,7 +7,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#">Deck Builder</a>
+          <a class="nav-link" href="deck_builder.php">Deck Builder</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="cards.php">Cards</a>
