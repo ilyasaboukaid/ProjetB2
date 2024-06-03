@@ -11,9 +11,9 @@ document.addEventListener('DOMContentLoaded', function() {
                         <img src="${card.image_path}" class="card-img-top img-fluid" alt="${card.name}">
                         <div class="card-body d-flex flex-column">
                             <h5 class="card-title">${card.name}</h5>
-                            <p class="card-text">Type: ${card.card_type_id}</p>
-                            <p class="card-text">Faction: ${card.main_faction_id}</p>
-                            <p class="card-text">Rarity: ${card.rarity_id}</p>
+                            <p class="card-text">Type: ${card.card_type_name}</p>
+                            <p class="card-text">Faction: ${card.main_faction_name}</p>
+                            <p class="card-text">Rarity: ${card.rarity_name}</p>
                         </div>
                     </div>
                 `;

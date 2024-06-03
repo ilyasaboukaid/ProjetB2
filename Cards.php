@@ -10,7 +10,6 @@
 <body>
 <?php
   require_once ('include/navbar.php');
-
   ?>
 
     <div class="container">

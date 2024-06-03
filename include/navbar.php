@@ -13,17 +13,11 @@
           <a class="nav-link" href="cards.php">Cards</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Collection</a>
+          <a class="nav-link" href="decks.php">Decks</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Decks</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Trade</a>
-        </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <button class="btn btn-primary">Sign in</button>
-        </li>
+        </li> -->
       </ul>
     </div>
   </nav>

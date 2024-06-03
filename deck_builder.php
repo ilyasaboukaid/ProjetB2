@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+
+<?php
+  require_once ('include/navbar.php');
+  ?>
     <div class="container">
         <h1 class="my-4 text-center">Deck Builder</h1>
         <div class="row">
@@ -24,7 +28,7 @@
                     </select>
                 </div>
                 <ul id="deck" class="list-group"></ul>
-                <button id="save-deck" class="btn btn-primary btn-block mt-3">Save Deck</button>
+                <button id="save-deck" class="btn btn-warning btn-block mt-3">Save Deck</button>
             </div>
         </div>
     </div>

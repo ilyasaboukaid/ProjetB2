@@ -12,16 +12,16 @@ document.addEventListener('DOMContentLoaded', function() {
                         <img src="${card.image_path}" class="card-img-top" alt="${card.name}">
                         <div class="card-body">
                             <h5 class="card-title">${card.name}</h5>
-                            <p class="card-text">Type: ${card.card_type_id}</p>
-                            <p class="card-text">Faction: ${card.main_faction_id}</p>
-                            <p class="card-text">Rarity: ${card.rarity_id}</p>
-                            <button class="btn btn-primary add-to-deck" data-card-id="${card.id}">Add to Deck</button>
+                            <p class="card-text">Type: ${card.card_type_name}</p>
+                            <p class="card-text">Faction: ${card.main_faction_name}</p>
+                            <p class="card-text">Rarity: ${card.rarity_name}</p>
+                            <button class="btn btn-outline-warning add-to-deck" data-card-id="${card.id}">Add to Deck</button>
                         </div>
                     </div>
                 `;
                 cardContainer.appendChild(cardElement);
 
-                if (card.card_type_id === '5') {
+                if (card.card_type_name === 'Hero') {
                     const option = document.createElement('option');
                     option.value = card.id;
                     option.innerText = card.name;
